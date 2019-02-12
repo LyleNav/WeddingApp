@@ -25,18 +25,6 @@ var app = new Framework7({
           url: 'bridegroom.html',
         },
         {
-          path: '/groomsmen/',
-          url: 'groomsmen.html',
-        },
-        {
-          path: '/bridesmaid/',
-          url: 'bridesmaid.html',
-        },
-        {
-          path: '/godparents/',
-          url: 'godparents.html',
-        },
-        {
           path: '/reception/',
           url: 'reception.html',
         },
