@@ -25,13 +25,8 @@ var app = new Framework7({
           url: 'bridegroom.html',
         },
         {
-<<<<<<< HEAD
           path: '/eventproper/',
           url: 'eventproper.html',
-=======
-          path: '/reception/',
-          url: 'reception.html',
->>>>>>> c888b944b8f0eadcdc920a922f0b7032c9638567
         },
         {
           path: '/motif/',
@@ -44,6 +39,22 @@ var app = new Framework7({
         {
           path: '/dinner/',
           url: 'dinner.html',
+        },
+        {
+          path: '/developer/',
+          url: 'developer.html',
+        },
+        {
+          path: '/lyle/',
+          url: 'lyle.html',
+        },
+        {
+          path: '/benjo/',
+          url: 'benjo.html',
+        },
+        {
+          path: '/neil/',
+          url: 'neil.html',
         },
       ],
       // ... other parameters
