@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <!-- Color theme for statusbar -->
+        <meta name="theme-color" content="#2196f3">
+        <!-- Your app title -->
+        <title>Dinner</title>
+        <!-- Path to Framework7 Library CSS -->
+        <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+        <!-- Path to your custom app styles-->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <!-- App root element -->
+        <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+                <div class="page-content">
+                    <div class="container">
+                        <img src="background.jpg" width="100%">
+                    </div>
+                    <div class="content-block">
+                        <div class="block">
+                            <div class="left">
+                                <a href="#" class="link back">
+                                    <i class="icon icon-back"></i>
+                                </a>
+                            </div>
+                            <div class="row no-gap" style="color:white; border-radius:50%">
+                                <div class="block-title" style="color:white; font-weight:bold; font-size:16px; letter-spacing: 1px">Appetizer</div>
+                                <div class="list media-list">
+                                    <ul>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/calamari.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Deep Fried Calamari</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">A crisp, light and tender squid appetizer served with lemon or marinara sauce.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/bacon.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Bacon Jalapeno Popper Puffs</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">Jalapeños, loads of cheese, and bacon are nestled in a square of puff pastry for the perfect bite.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/cheesy.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Cheesy Bacon Bread</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">Drenched with garlic butter and stuffed with cheddar, Swiss, and bacon.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            <div class="block-title" style="color:white; font-weight:bold; font-size:16px; letter-spacing: 1px">Main Dish</div>
+                                <div class="list media-list">
+                                    <ul>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/lobster.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Butter Poached Lobster with Fresh Tomatoes</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">Slow, gentle poaching in a sublime buttery broth with fresh lobster, tomatoes and basil.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/teriyaki.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Chicken Teriyaki</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">Chicken breasts cooked with garlic, soy sauce and honey, then shredded and coated with sauce.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/wagyu.JPG" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">First Light Grass Wagyu Short Rib</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">Intensely marbled, juicy and delicious, the short rib is a doing muscle that loves long slow cooking.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="block-title" style="color:white; font-weight:bold; font-size:16px; letter-spacing: 1px">Dessert</div>
+                                <div class="list media-list">
+                                    <ul>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/oreo.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Oreo Shaved Ice Bingsu</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">Creamy milk topped with a generous serving of Oreo cookie and cookie bits.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/fondue.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Chocolate Fondue</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">Slices of fruit are dipped in a caquelon of melted chocolate.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="item-content">
+                                                <div class="item-media"><img src="food/mango.jpg" width="44" style="border-radius:50%" /></div>
+                                                <div class="item-inner">
+                                                    <div class="item-title-row">
+                                                        <div class="item-title">Mango Float</div>
+                                                    </div>
+                                                    <div class="item-text" style="color:white">A cake dessert made with layers of graham crackers, condensed milk, and ripe mangoes.</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+    </body>
+</html>

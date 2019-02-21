@@ -1,0 +1,165 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: fixed;
+    width: auto;
+    height: 100%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Dancing Script"; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px;
+  }
+  
+  
+  .container .btn:hover {
+    background-color: transparent;
+  }
+/*Fade in*/
+  .fadeImage {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+    display: block;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+/*Swiper*/
+.swiper-container {
+  height: 100%;
+}
+.swiper-slide {
+  background:#fff;
+}
+.swiper-slide span {
+  text-align: center;
+  display: block;
+  margin: 20px;
+  font-size: 21px;
+}
+
+h2 { 
+  font-family: "Dancing Script"; 
+  font-size: 24px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+}
+
+.buttonfnt { 
+  font-family: "Dancing Script"; 
+  font-size: 32px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+}
+
+.namefnt { 
+  font-family: "Dancing Script"; 
+  font-size: 26px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  color:white;
+  letter-spacing: 0.75px;
+}
+
+.eventfnttitle { 
+  font-family: "Montserrat"; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.eventfntsub { 
+  font-family: "Montserrat"; 
+  font-size: 14px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.buttonfntbck { 
+  font-family: "Dancing Script"; 
+  font-size: 64px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+}
+
+.nav-trans {
+  background-color: transparent !important;
+}
+
+.device-android .ent-content {
+  margin-top: 0vh;
+}
+
+.ent-content-height {
+  height: 100%;
+  overflow: scroll;
+}
+
+.swiper-sliders {
+  height:auto;
+}
+
+.swiper-slide {
+  background: transparent;
+}
+
