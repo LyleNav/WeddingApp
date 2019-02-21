@@ -25,8 +25,13 @@ var app = new Framework7({
           url: 'bridegroom.html',
         },
         {
+<<<<<<< HEAD
           path: '/eventproper/',
           url: 'eventproper.html',
+=======
+          path: '/reception/',
+          url: 'reception.html',
+>>>>>>> c888b944b8f0eadcdc920a922f0b7032c9638567
         },
         {
           path: '/motif/',
